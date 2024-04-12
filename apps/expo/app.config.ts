@@ -4,10 +4,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   extra: {
     eas: {
-      projectId: process.env.EXPO_PUBLIC_EAS_PROJECT_ID,
+      projectId: "8fc6bfe9-b07c-42b6-9013-e126bb146831",
     },
   },
-  owner: process.env.EXPO_PUBLIC_EAS_OWNER,
+  owner: "mdzonaid",
   plugins: ['expo-router'],
   experiments: {
     tsconfigPaths: true,
@@ -15,9 +15,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   platforms: ['ios', 'android'],
   name: 'T4 App',
-  slug: 't4-app',
+  slug: 't4test',
   updates: {
-    url: 'https://u.expo.dev/85fc6ccd-0ce1-4e4d-804c-b15df989f97e',
+    url: 'https://u.expo.dev/8fc6bfe9-b07c-42b6-9013-e126bb146831',
   },
   runtimeVersion: {
     policy: 'sdkVersion',
