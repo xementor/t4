@@ -4,10 +4,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   extra: {
     eas: {
-      projectId: "8fc6bfe9-b07c-42b6-9013-e126bb146831",
+      projectId: '8fc6bfe9-b07c-42b6-9013-e126bb146831',
     },
   },
-  owner: "mdzonaid",
+  owner: 'mdzonaid',
   plugins: ['expo-router'],
   experiments: {
     tsconfigPaths: true,
