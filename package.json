@@ -16,6 +16,7 @@
     "seed": "cd packages/api && bun seed",
     "native": "cd apps/expo && bun dev",
     "studio": "cd packages/api && bun studio",
+    "deploy:api": "cd packages/api && bun run deploy", 
     "native:prod": "cd apps/expo && bun dev:prod",
     "build": "cd packages/ui && tamagui-build",
     "build:web": "cd apps/next && bun run build",
