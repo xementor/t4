@@ -3,3 +3,6 @@ name = "t4-test"
 compatibility_date = "2024-05-02"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
+
+route = "t4-cwm.pages.dev/*"
+workers_dev = false
